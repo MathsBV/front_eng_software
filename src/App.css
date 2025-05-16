@@ -1,0 +1,19 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+/* Efeito de crescimento nos cards de funcionalidades */
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: scale(1.05); /* O card vai crescer 5% */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+}
